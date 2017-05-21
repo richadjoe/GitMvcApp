@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="826" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--ProfileVC-->
         <scene sceneID="9od-kf-4Sg">
             <objects>
-                <viewController id="ST6-mr-GDa" sceneMemberID="viewController">
+                <viewController id="ST6-mr-GDa" customClass="ProfileVC" customModule="MvcApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4cg-Us-ibY"/>
                         <viewControllerLayoutGuide type="bottom" id="sP9-Dr-IXl"/>
@@ -184,13 +184,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile Driver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6H-eF-0oa">
-                                <rect key="frame" x="112" y="60" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile-icon" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-q1-G5g">
                                 <rect key="frame" x="67" y="132" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -251,9 +244,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log Out"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6H-eF-0oa">
+                                <rect key="frame" x="112" y="60" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailAddressTxt" destination="Pxl-EA-OcF" id="AFg-9s-YOU"/>
+                        <outlet property="fullName" destination="yV4-hw-5rb" id="JgG-si-qUa"/>
+                        <outlet property="fullNameTxt" destination="yV4-hw-5rb" id="UrX-M7-yBt"/>
+                        <outlet property="genderTxt" destination="yZk-2N-Uf0" id="vTT-oh-8Zz"/>
+                        <outlet property="passwordTxt" destination="snC-0t-ZLK" id="8Rl-EP-Fhx"/>
+                        <outlet property="phoneNumberTxt" destination="6VC-fh-JDa" id="A5h-gY-bDY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPe-bG-eb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
