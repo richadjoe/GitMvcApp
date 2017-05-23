@@ -26,6 +26,8 @@ class ProfileVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func signOutButton(_ sender: Any) {
+    }
     
     
 }   // class

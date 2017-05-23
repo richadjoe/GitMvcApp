@@ -15,6 +15,7 @@
 		AB3BCCF01ED1F35400BA7290 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BCCEF1ED1F35400BA7290 /* SignInVC.swift */; };
 		AB3BCCF21ED1FDC300BA7290 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BCCF11ED1FDC300BA7290 /* Profile.swift */; };
 		AB3BCCF41ED200A700BA7290 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3BCCF31ED200A700BA7290 /* ProfileVC.swift */; };
+		AB3E7AA61ED3058300F807E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3E7AA51ED3058300F807E7 /* GoogleService-Info.plist */; };
 		E9E635231A5F880E844856D8 /* Pods_MvcApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04644F8F2A4D17EF94F96B6 /* Pods_MvcApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		AB3BCCEF1ED1F35400BA7290 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		AB3BCCF11ED1FDC300BA7290 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		AB3BCCF31ED200A700BA7290 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		AB3E7AA51ED3058300F807E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C04644F8F2A4D17EF94F96B6 /* Pods_MvcApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvcApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				AB3BCCEE1ED1F21B00BA7290 /* Model */,
 				AB3BCCD81ED1969B00BA7290 /* AppDelegate.swift */,
 				AB3BCCE41ED1969B00BA7290 /* Info.plist */,
+				AB3E7AA51ED3058300F807E7 /* GoogleService-Info.plist */,
 			);
 			path = MvcApp;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3BCCE31ED1969B00BA7290 /* LaunchScreen.storyboard in Resources */,
+				AB3E7AA61ED3058300F807E7 /* GoogleService-Info.plist in Resources */,
 				AB3BCCE01ED1969B00BA7290 /* Assets.xcassets in Resources */,
 				AB3BCCDE1ED1969B00BA7290 /* Main.storyboard in Resources */,
 			);
